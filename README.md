@@ -17,12 +17,12 @@ This repository contains the complete strategic roadmap and implementation files
 
 ### 📋 Planning Documents
 
-- **[MoSCoW Prioritization](./MoSCoW%20prioritization%20for%20software%20to%20include.md)** - Software stack priorities
+- **[MoSCoW Prioritization]** - Software stack priorities
 
 
 ### 🔧 Configuration Files
 
-- **[Network Topology](./Network%20topology.md)** - Network infrastructure details
+- **[Network Topology]** - Network infrastructure details
 - **[Personal Hardware Specs]** - Hardware inventory
 
 
