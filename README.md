@@ -5,6 +5,7 @@
 This repository contains the complete strategic roadmap and implementation files for building a high-performance, privacy-focused AI development and knowledge management ecosystem.
 
 **System Architecture:**
+
 - **Desktop:** RTX 5070 Ti GPU workstation (primary compute)
 - **XPS 15:** CPU offload server (i9, 64GB RAM)
 - **XPS 13:** Portable client
@@ -59,6 +60,7 @@ This repository contains the complete strategic roadmap and implementation files
 ## Service Inventory
 
 ### GPU Services (Desktop)
+
 - **nim_inference:** LLAMA-3.1-8B inference server (port 8000)
 - **triton_server:** Multi-model serving (ports 8001-8003)
 - **nemo_training:** On-demand training jobs
@@ -67,6 +69,7 @@ This repository contains the complete strategic roadmap and implementation files
 - **redis_cache:** Low-latency caching (port 6379)
 
 ### CPU Services (XPS 15)
+
 - **n8n_automation:** Workflow automation (port 5678)
 - **postgres_mlops:** Database backend (port 5432)
 - **mlflow_server:** Experiment tracking (port 5001)
@@ -86,8 +89,8 @@ This repository contains the complete strategic roadmap and implementation files
 
 ## Security Considerations
 
-- **NGC API Keys and other external api keys** 
-- **Database Credentials:** Environment variables + secrets 
+- **NGC API Keys and other external api keys**
+- **Database Credentials:** Environment variables + secrets
 - **Network Isolation:** accelerate computing and security
 - **NAS Access:** SSL
 - **Local-First:** No cloud dependencies, full data sovereignty
@@ -96,6 +99,7 @@ This repository contains the complete strategic roadmap and implementation files
 ## Technology Stack
 
 ### NVIDIA Software
+
 - NIM Microservices (inference)
 - NeMo Framework  (training)
 - TensorRT  (optimization)
@@ -103,27 +107,31 @@ This repository contains the complete strategic roadmap and implementation files
 - DCGM Exporter (monitoring)
 
 ### Infrastructure
+
 - Docker Engine + Swarm
 - Ubuntu 25.10 (Desktop)
 - CUDA 13.0.2, Driver 580.95.05
 - UniFi networking (2.5G)
 
 ### Data & ML
+
 - PyTorch (core framework)
 - Transformers (model library)
 - Datasets (data processing)
 - MLflow (experiment tracking)
 
 ### Automation
+
 - n8n (workflow automation)
 
 ### Knowledge Management
+
 - Obsidian 1.9.14
 - bases plugin
 - Custom T-Rex classifier
 
-
 ### Feedback Welcome
+
 - Performance optimization tips
 - Architecture critique
 - Tool recommendations
@@ -132,12 +140,14 @@ This repository contains the complete strategic roadmap and implementation files
 ## Resources
 
 ### Official Documentation
+
 - [NVIDIA NIM](https://docs.nvidia.com/nim/)
 - [NeMo Framework](https://docs.nvidia.com/nemo-framework/)
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
 - [Docker Swarm](https://docs.docker.com/engine/swarm/)
 
 ### Community
+
 - [r/LocalLLaMA](https://reddit.com/r/LocalLLaMA) - Self-hosted AI
 - [NVIDIA Forums](https://forums.developer.nvidia.com/) - Technical support
 - [n8n Community](https://community.n8n.io/) - Workflow automation
@@ -147,4 +157,4 @@ This repository contains the complete strategic roadmap and implementation files
 
 ## License
 
-Personal infrastructure configuration. 
+Personal infrastructure configuration.

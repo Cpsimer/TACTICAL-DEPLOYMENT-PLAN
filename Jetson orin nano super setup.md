@@ -1,0 +1,18 @@
+Setup Jetson Orin Nano with reference to github and other pages such as 
+- JetsonHacks
+		- install-docker
+	- jetson orin setup
+	- migration jetson to ssd
+	- eventually distill key info from all repos and starred repos
+- Nvidia-ai-iot
+	- jetson into to distillation 
+- dusty-nv
+	- jetson containers 
+- GokuMohandas
+	- made with ml 
+- eriklindernoren
+	- ml from scratch
+- rasbt
+	- llms from scratch 
+- codecrafters-io
+	- build your own x 
