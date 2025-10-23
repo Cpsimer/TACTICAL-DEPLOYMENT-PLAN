@@ -101,7 +101,9 @@ USB Type-C to USB Type-CA
 ### Storage
 
 - **WD NAS**: 2TB, connected via USG Gateway, ~280MB/s over 1GbE
-### WD NAS
+
+### WD NAS Details
 
 - **Purpose**: GitHub repository hub, archive, storage, potentially used for api secret hashicorp vault
+
  
