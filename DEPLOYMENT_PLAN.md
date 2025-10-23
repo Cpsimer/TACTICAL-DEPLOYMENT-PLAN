@@ -1,4 +1,5 @@
 # Infrastructure Deployment Plan
+
 ## Executive Summary
 
 This document provides a comprehensive, step-by-step deployment plan for the AI-accelerated computing infrastructure spanning:
@@ -18,6 +19,7 @@ This document provides a comprehensive, step-by-step deployment plan for the AI-
 ## Phase 0: Pre-Deployment Checklist & System Validation
 
 ### 0.1 Validate Existing Services
+
 **Objective**: Confirm baseline before changes to prevent cascading failures.
 
 ```bash
@@ -89,6 +91,7 @@ microk8s kubectl delete pod <stuck-pod> -n <namespace> --force --grace-period=0
 ## Phase 1: NAS Hardening with TrueNAS + HashiCorp Vault
 
 ### 1.1 Factory Reset & TrueNAS Installation
+
 **Duration**: 2-3 hours  
 **Prerequisites**: USB stick (8GB+) for TrueNAS installer, backup of any existing NAS data
 
@@ -1333,7 +1336,7 @@ sudo mount -a
 
 ## Appendix B: Reference Architecture Diagram
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────────┐
 │                      UniFi 2.5G Network                         │
 │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐         │

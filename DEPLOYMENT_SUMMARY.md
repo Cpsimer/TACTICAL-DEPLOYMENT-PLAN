@@ -31,17 +31,20 @@
 ### Key Implementation Decisions
 
 **Container Orchestration**: Hybrid MicroK8s + Slurm approach
+
 - MicroK8s handles container lifecycle and service discovery
 - Slurm overlays GPU job scheduling and cross-node resource management
-- Preserves existing MicroK8s investment while adding specialized HPC capabilities
+- Preserves existing MicroK8s investment while adding HPC capabilities
 
 **API Security Storage**: HashiCorp Vault on TrueNAS
+
 - Centralized secrets management for NGC API keys, database credentials
 - Auto-unseal automation via systemd
 - AppRole authentication for Slurm jobs to fetch secrets dynamically
 - Prepares for future scaling to UNAS-Pro 4 (Q4 2025)
 
 **Jetson Integration**: Federated Slurm node for edge AI
+
 - Immediate cluster integration via Slurm (ARM64 partition)
 - Video decode specialization (5x 1080p60 H.265 streams)
 - Distillation workflow: Desktop trains, Jetson runs quantized inference

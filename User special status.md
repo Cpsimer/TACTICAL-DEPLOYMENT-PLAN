@@ -1,4 +1,6 @@
-Your memberships essentially act as “keys” to the latest toolchains and firmware that the Slurm‑based plan depends on. Here’s how each status maps to the components in the MoSCoW list and the new orchestration setup:
+# User Special Status & Developer Access
+
+Your memberships essentially act as "keys" to the latest toolchains and firmware that the Slurm‑based plan depends on. Here's how each status maps to the components in the MoSCoW list and the new orchestration setup:
 
 - **NVIDIA Developer & AI Aerial programs / NGC Catalog** – These accounts give you access to pre‑release CUDA toolkits, drivers and SDKs. For the Slurm cluster you’ll want to request the CUDA 13.1 toolkit, JetPack 7 beta for the Jetson Orin and RAPIDS 26.02 preview; these programmes routinely distribute them to registered developers. They also provide early versions of NeMo, NIM microservices, Triton and CUDA‑X libraries, so you can build Apptainer/Singularity images with the newest GPU support
 
@@ -10,18 +12,23 @@ Your memberships essentially act as “keys” to the latest toolchains and firm
 
 - **Google AI Pro / Azure Education Hub / Azure AI Foundry** – These cloud programmes grant you preview access to tools like Azure’s MLflow integration or Google’s Vertex AI SDKs. While your platform is local, they’re handy for off‑line testing of TensorFlow or JAX builds compiled against CUDA 13. You can download those binaries and run them locally under Slurm.
 
-- **Meta Developer Models** – Through the Meta developer program you can legally download Llama 4 (Scout, Maverick) and other Llama 3.x models. These weights can then be quantised with TensorRT and served on your desktop via Slurm‑managed jobs, giving you access to state‑of‑the‑art LLMs without waiting for public release.
+- **Meta Developer Models** – Through the Meta developer program you can legally download Llama 4 (Scout, Maverick) and other Llama 3.x models. These weights can then be quantised with TensorRT and served on your desktop via Slurm‑managed jobs, giving you access to state‑of‑the‑art LLMs without waiting for public release.
 
-Nvidia AI Aerial developer program 
-Nvidia Developer Program 
-Docker Beta Developer Program
-Nvidia 6g Developer Program
-NGC Catelog
-GitHub Student Developer pack
-Google AI Pro
-Azure Education Hub 
-Azure AI Foundry
-Meta Developer Models Provided: 
+## Active Memberships
+
+- Nvidia AI Aerial developer program
+- Nvidia Developer Program
+- Docker Beta Developer Program
+- Nvidia 6g Developer Program
+- NGC Catelog
+- GitHub Student Developer pack
+- Google AI Pro
+- Azure Education Hub
+- Azure AI Foundry
+- Meta Developer Models
+
+## Meta Developer Models Provided
+
 - Llama 4 Scout
 - Llama 4 Maverick
 - Llama 3.3: 70B
@@ -32,9 +39,13 @@ Meta Developer Models Provided:
 - Llama Code
 - Llama 2
 - Llama Guard 2
-Obsidian Sync + Obsidian Publish
-Icloud+ 50gb
-Student at University of Cincinnati
 
-[[developer program]] 
+## Additional Services
 
+- Obsidian Sync + Obsidian Publish
+- Icloud+ 50gb
+- Student at University of Cincinnati
+
+## References
+
+- [[developer program]]
