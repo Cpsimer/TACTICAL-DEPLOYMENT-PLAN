@@ -1,0 +1,18 @@
+- FINDABLE 
+	- Consumers can find the needed data. 
+	- Digital resources should be easy to find for both humans and computers. Extensive machine-actionable metadata are essential for automatic discovery of relevant datasets and services, and are therefore an essential component of the FAIRification process
+- ACCESSIBLE 
+	- Consumers can retrieve the data. 
+	- Protocols for retrieving digital resources should be made explicit, for both humans and machines, including well-defined mechanisms to obtain authorization for access to protected data
+- INTEROPERABLE 
+	- Consumers and producers have a common representation and comprehension of data. 
+	- When two or more digital resources are related to the same topic or entity, it should be possible for machines to merge the information into a richer, unified view of that entity. Similarly, when a digital entity is capable of being processed by an online service, a machine should be capable of automatically detecting this compliance and facilitating the interaction between the data and that tool. This requires that the meaning (semantics) of each participating resource – be they data and/or services service – is clear
+- REUSABLE 
+	- Consumers can leverage existing data products to feed decisions as opposed to reinventing the data set. 
+	- Digital resources are sufficiently well described for both humans and computers, such that a machine is capable of deciding: if a digital resource should be reused (i.e., is it relevant to the task at-hand?); if a digital resource can be reused, and under what conditions (i.e., do I fulfill the conditions of reuse?); and who to credit if it is reused.
+- UNDERSTANDABLE 
+	- Consumers can find descriptions of data to recognize the content, context and applicability. 
+- SECURE 
+	- Consumers know that data is protected from unauthorized use and manipulation.
+- TRUSTWORTHY
+	Consumers can be confident that data can be used for decision making

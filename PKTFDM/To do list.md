@@ -1,0 +1,29 @@
+- what is the vison?
+- what is the vison?
+- define 3-5 core features 
+	- Note entry points 
+	- flexible complexity 
+	- future access to data and information 
+- what does the final output look like?
+- Prioritize using MoSCoW roadmap
+	- must have 
+	- should have 
+	- would have 
+	- could have
+- what does the first draft look like?
+- Define each source 
+	- find key info and takeaways 
+	- diamond in the rough
+- what cant it do
+- what makes it different 
+- using SMART goal setting create supporting info for the index
+	- database 
+	- architecture and structural components 
+	- user guide 
+	- master guide 
+	- training materials
+- MVP
+	- [Content management](https://en.wikipedia.org/wiki/Content_management "Content management"): taxonomy processes and desktop search tools that enable employees to subscribe to, find, organize and publish information that resides on their desktops
+	- Just-in-time [canvassing](https://en.wikipedia.org/wiki/Canvassing "Canvassing"): templates and e-mail canvassing lists that enable people to identify and connect with the appropriate experts and expertise quickly and effectively
+	- Knowledge harvesting: software tools that automatically collect appropriate knowledge residing on subject matter experts' hard drives
+	- Personal productivity improvement: knowledge fairs and 101 training sessions to help each employee make more effective personal use of the knowledge, learning, and technology resources available in the context of their work

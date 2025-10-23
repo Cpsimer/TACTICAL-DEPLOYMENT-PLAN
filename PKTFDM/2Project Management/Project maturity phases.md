@@ -1,0 +1,11 @@
+- Initial processes 
+	- plan
+- Organizational standards 
+	- baseline 
+- project management 
+	- preliminary 
+- integrated program 
+	- summary 
+- management
+	- final
+- continuous improvement 
