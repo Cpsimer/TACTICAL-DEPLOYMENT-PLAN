@@ -1,0 +1,4 @@
+LICENSE
+*.bak
+node_modules/
+.git/
