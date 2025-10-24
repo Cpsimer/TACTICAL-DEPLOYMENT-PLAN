@@ -2,3 +2,5 @@ LICENSE
 *.bak
 node_modules/
 .git/
+NVIDIA Jetson Orin Nano Super Developers Kit.md
+ULTIMATE_DEPLOYMENT_ARCHITECTURE.md
