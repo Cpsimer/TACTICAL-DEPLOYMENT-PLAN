@@ -16,7 +16,7 @@ This repository contains the complete strategic roadmap and implementation files
 ## Quick Navigation
 
 
-### 📋 Planning Documents
+### Planning Documents
 
 - **[MoSCoW Prioritization]** - Software stack priorities
 
@@ -80,12 +80,12 @@ This repository contains the complete strategic roadmap and implementation files
 
 ## Critical Success Factors
 
-1. ✅ **Desktop GPU exclusively for inference/training** (placement constraints)
-2. ✅ **Desktop hardware maximized for total usage** (placement constraints)
-3. ✅ **NAS accessible from  nodes** (unified storage)
-4. ✅ **Obsidian vault on shared NFS** (n8n automation target)
-5. ✅ **T-Rex model <50ms latency** (real-time classification)
-6. ✅ **Automated Git or n8n → Obsidian pipeline** (knowledge capture)
+1. **Desktop GPU exclusively for inference/training** (placement constraints)
+2. **Desktop hardware maximized for total usage** (placement constraints)
+3. **NAS accessible from all nodes** (unified storage)
+4. **Obsidian vault on shared NFS** (n8n automation target)
+5. **T-Rex model <50ms latency** (real-time classification)
+6. **Automated Git or n8n → Obsidian pipeline** (knowledge capture)
 
 ## Security Considerations
 
