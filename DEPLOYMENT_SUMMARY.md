@@ -1,6 +1,6 @@
 # Deployment Summary
 
-## Completed Tasks 
+## Completed Tasks
 
 ### Documentation & Error Fixes
 
