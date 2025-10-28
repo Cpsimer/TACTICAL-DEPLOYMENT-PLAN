@@ -1,3 +1,8 @@
 {
-    "inlineChat.notebookAgent": true
+    "inlineChat.notebookAgent": true,
+    "github.copilot.enable": {
+        "plaintext": true,
+        "markdown": true,
+        "scminput": true
+    }
 }
